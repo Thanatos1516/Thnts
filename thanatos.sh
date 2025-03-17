@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo chmod +x art.sh
 ./art.sh
 echo
 echo
