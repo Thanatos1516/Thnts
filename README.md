@@ -1,6 +1,8 @@
 # OSINT Tool 
 
 This is an OSINT (Open Source Intelligence) tool designed to gather essential information about domains and IP addresses. It uses **WHOIS**, **NSLOOKUP**, and **Port Scanning** to provide insights on domain ownership, DNS records, and open ports.
+#UPDATE
+This is the 1.1.0 version of program. The program has been added with a function to determine location by IP address.
 
 ## Installation
 
