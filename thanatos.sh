@@ -17,6 +17,7 @@ choice() {
         1) Port scanning
         2) Domain Scanning
         3) EXIT
+	4) Location
 (>>>>>>):" choice
 
     case $choice in
@@ -56,6 +57,9 @@ choice() {
 		   continue
                 fi
             done
+            ;;
+	4)
+            python3  location.py
             ;;
         *)
             echo "Invalid option selected."
