@@ -16,9 +16,9 @@ choice() {
     read -p "Please, select: 
         1) Port scanning
         2) Domain Scanning
-        3) Location
-	4) Social account
- 	5) EXIT
+        3) EXIT
+	4) Location
+ 	5) Social account
 (>>>>>>):" choice
 
     case $choice in
