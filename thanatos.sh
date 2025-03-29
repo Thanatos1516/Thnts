@@ -16,8 +16,9 @@ choice() {
     read -p "Please, select: 
         1) Port scanning
         2) Domain Scanning
-        3) EXIT
-	4) Location
+        3) Location
+	4) Social account
+ `	5) EXIT
 (>>>>>>):" choice
 
     case $choice in
@@ -61,6 +62,9 @@ choice() {
 	4)
             python3  location.py
             ;;
+	5) 
+ 	    python3 social.py
+      	    ;;
         *)
             echo "Invalid option selected."
             choice
