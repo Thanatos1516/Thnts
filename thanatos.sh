@@ -18,7 +18,7 @@ choice() {
         2) Domain Scanning
         3) Location
 	4) Social account
- `	5) EXIT
+ 	5) EXIT
 (>>>>>>):" choice
 
     case $choice in
