@@ -41,7 +41,8 @@ ART=$(cat << 'EOF'
                                     T      HHHHH     AAAAA     N N  N     AAAAA        T      O   O          SSS 
                                     T      H   H     A   A     N   NN     A   A        T      O   O             S
                                     T      H   H     A   A     N    N     A   A        T       OOO           SSSS 
-														   version 1.1.0
+														   version 1.1.1
+		
 EOF
 )
 
